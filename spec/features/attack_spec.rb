@@ -4,4 +4,3 @@ feature 'Attacking' do
     click_link 'Attack'
     expect(page).to have_content 'Mel attacked Lucy'
   end
-end
